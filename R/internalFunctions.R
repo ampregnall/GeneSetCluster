@@ -701,7 +701,7 @@ optimalDist <- function(mat_sym, use_method=NULL) {
                            "HC_average", "HC_complete", "HC_single", "HC_ward", "isoMDS",
                            "MDS", "MDS_angle", "monoMDS", "OLO", "OLO_average", "OLO_complete",
                            "OLO_single", "OLO_ward", "QAP_2SUM", "QAP_BAR", "R2E", "Sammon_mapping",
-                           "Spectral", "Spectral_norm", "TSP", "Identity", "SPIN_NH", "SPIN_STS")
+                           "Spectral", "Spectral_norm", "TSP", "Identity") #, "SPIN_NH", "SPIN_STS")
 
     seriation_res <- apply_seriation(mat_sym,                     # apply seriation methods
                                      seriation_methods)
